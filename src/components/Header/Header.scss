@@ -1,0 +1,28 @@
+.header {
+    padding: 12px 24px;
+    background-color: #006492;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 50px;
+        height: 50px;
+        transition: transform .2s ease-out;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: transform .2s ease-in;
+        }
+    }
+
+    &__title {
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+}

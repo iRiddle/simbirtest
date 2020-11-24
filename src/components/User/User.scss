@@ -1,0 +1,88 @@
+.user {
+    width: 550px;
+    background-color: #fff;
+    border-radius: 4px;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+    }
+
+    &__top-info {
+        display: flex;
+    }
+
+    &__avatar {
+        min-width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    &__info-container {
+        width: 100%;
+        margin-left: 24px;
+    }
+
+    &__info-primary {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            font-size: 12px;
+            color: grey;
+        }
+    }
+
+    &__divider {
+        border: 0;
+        border-bottom: 1px solid grey;
+    }
+
+    &__info-secondary {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__info-field {
+        display: flex;
+        margin-top: 6px;
+
+        span {
+            display: block;
+            min-width: 100px;
+            color: grey;
+            font-size: 12px;
+        }
+
+        span + span {
+            font-weight: bold;
+        }
+    }
+    
+    &__tasks {
+        max-height: 250px;
+        overflow-y: scroll;
+    }
+
+    &__tasks-btn {
+        width: 100%;
+        margin-top: 12px;
+        border: none;
+        border-radius: 4px;
+        background-color: #006492;
+        color: #ffffff;
+        cursor: pointer;
+        padding: 12px;
+        transition: 0.2s transform ease-out;
+
+        &:hover {
+            transform: scale(1.01);
+            transition: 0.2s transform ease-in;
+        }
+    }
+
+    &__task {
+        margin-top: 12px;
+    }
+}

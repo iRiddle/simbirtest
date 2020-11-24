@@ -4,9 +4,7 @@ import Pagination from 'rc-pagination';
 import MainLayout from '../../layouts/MainLayout';
 
 import UsersPageLayout from './UsersPageLayout';
-
 import Loader from '../../components/Loader'
-
 import { useHandleGetUsers } from './useHandleGetUsers';
 
 const UsersPage = () => {

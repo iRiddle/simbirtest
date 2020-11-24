@@ -1,7 +1,6 @@
 import React from 'react';
-
 import Task from '../Task';
-
+import { pseudoAvatar } from '../../constants/userConstants';
 import './User.scss';
 
 const User = ({ user, tasks, isShownTask, getTasks }) => {
@@ -16,7 +15,6 @@ const User = ({ user, tasks, isShownTask, getTasks }) => {
         website,
         company: { name: companyName }
     } = user
-    const pseudoAvatar = 'https://via.placeholder.com/120x180';
     return (
         <article className='user'>
             <div className='user__container'>

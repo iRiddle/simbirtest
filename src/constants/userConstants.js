@@ -1,0 +1,1 @@
+export const pseudoAvatar = 'https://via.placeholder.com/120x180';

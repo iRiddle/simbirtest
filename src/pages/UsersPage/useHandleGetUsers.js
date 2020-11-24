@@ -1,5 +1,4 @@
 import { useState, useEffect, useCallback } from 'react';
-
 import UserService from '../../services/UserService';
 
 export const useHandleGetUsers = () => {
